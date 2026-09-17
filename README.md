@@ -9,12 +9,12 @@
 ### HTTP Request
 The HTTP GET request was captured using Wireshark.
 
-![HTTP Request](images/01_HTTP_Request.png)
+![HTTP Request](w1.png)
 
 ### HTTP Response
 The server returned an HTTP 200 OK response.
 
-![HTTP Response](images/02_HTTP_Response.png)
+![HTTP Response](w2.png)
 
 ---
 
@@ -23,27 +23,27 @@ The server returned an HTTP 200 OK response.
 ### Follow TCP Stream
 The TCP stream shows the communication between the client and the server.
 
-![TCP Stream](images/03_TCP_Stream.png)
+![Follow TCP Stream](w3.png)
 
 ### TCP Three-Way Handshake
 The connection was established using SYN, SYN-ACK, and ACK.
 
-![TCP Handshake](images/04_TCP_Handshake.png)
+![TCP Three-Way Handshake](w4.png)
 
 ### Sequence and Acknowledgment Numbers
 The SYN-ACK packet shows relative Sequence Number = 0 and Acknowledgment Number = 1.
 
-![TCP Sequence and ACK](images/05_TCP_Seq_Ack.png)
+![Sequence and Acknowledgment Numbers](w5.png)
 
 ### TCP Data Transfer
 The captured TCP segment contains 1300 bytes of data.
 
-![TCP Data Transfer](images/06_TCP_Data.png)
+![TCP Data Transfer](w6.png)
 
 ### TCP Termination
 FIN-ACK and ACK packets were observed during connection termination.
 
-![TCP Termination](images/07_TCP_Termination.png)
+![TCP Termination](w7.png)
 
 ---
 
@@ -58,7 +58,7 @@ The selected UDP packet contains the following information:
 | UDP Length | 158 bytes |
 | UDP Payload | 150 bytes |
 
-![UDP Analysis](images/08_UDP_Analysis.png)
+![UDP Analysis](w8.png)
 
 ---
 
@@ -77,5 +77,3 @@ The selected UDP packet contains the following information:
 |---|---|---|
 | Use Cases | Web browsing, email, and file transfer. | Online gaming, VoIP, and live streaming. |
 | Performance | More overhead due to connection setup, acknowledgments, and retransmissions. | Lower overhead and no connection setup, making it suitable for real-time applications. |
-
-
